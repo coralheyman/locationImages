@@ -1,0 +1,8 @@
+<h1 mat-dialog-title>Nuevo registro de imagenes</h1>
+<div mat-dialog-content>
+  <p>Debes escoger los nuevos archivos a subir</p>
+</div>
+<div mat-dialog-actions>
+  <button mat-button (click)="onNoClick()">Cancelar</button>
+  <button mat-button [mat-dialog-close]="data.animal" cdkFocusInitial>Guardar</button>
+</div>
